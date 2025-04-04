@@ -1,0 +1,21 @@
+*{
+  
+    color: white;
+}
+
+.fontawe{
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+   
+}
+
+.update{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+ul li{
+    margin: 5px 3px 5px 3px;
+}
