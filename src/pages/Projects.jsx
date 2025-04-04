@@ -14,6 +14,11 @@ const Projects = () => {
     alert("This project is a demo shopping website created using react framework");
   };
 
+  const userlistInfo = () => {
+    
+    alert("This project is a website that displays demo users and their respective information and was created using react framework");
+  };
+
   return (
     <div style={projectsPageStyle}>
       <h1 style={{ color: "white", fontFamily: "Poppins, sans-serif" }}>
@@ -43,10 +48,10 @@ const Projects = () => {
         </li>
 
         <li>
-          <a href ="/" className="update">
-            Yet Another Project
+          <a href ="https://userlist-userinfo-demo.netlify.app/" className="update">
+            Users list and User Information demo(Web development)
           </a>
-          <span onClick={updateScoreInfo} style={iconStyle}>
+          <span onClick={userlistInfo} style={iconStyle}>
             <FontAwesomeIcon icon={faCircleInfo} className="fontawe" />
           </span>
         </li>
