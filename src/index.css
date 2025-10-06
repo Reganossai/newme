@@ -1,7 +1,12 @@
-*{
-  
-    color: white;
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: #000;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
+
 
 .fontawe{
     color: white;
@@ -18,4 +23,16 @@
 
 ul li{
     margin: 5px 3px 5px 3px;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
 }
