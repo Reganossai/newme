@@ -26,6 +26,12 @@ const Projects = () => {
     );
   };
 
+  const elrappInfo = () => {
+    alert(
+      "Elrapp is a realtime live translation website that captures audio and translates the audio to a selected language "
+    );
+  };
+
   return (
     <div style={projectsPageStyle}>
       <h1 style={{ color: "white", fontFamily: "Poppins, sans-serif" }}>
@@ -36,6 +42,18 @@ const Projects = () => {
         cloud architecture, and business intelligence.
       </p>
       <ul>
+
+        
+
+         <li>
+          <a href="https://elrapp.netlify.app/" className="update">
+            Elrapp
+          </a>
+          <span onClick={elrappInfo} style={iconStyle}>
+            <FontAwesomeIcon icon={faCircleInfo} className="fontawe" />
+          </span>
+        </li>
+
 
          <li>
           <a href="https://elrapido.netlify.app/" className="update">
