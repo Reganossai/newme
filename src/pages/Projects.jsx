@@ -28,7 +28,7 @@ const Projects = () => {
 
   const elrappInfo = () => {
     alert(
-      "Elrapp is a realtime live translation website that captures audio and translates the audio to a selected language "
+      "Motion-translate is a realtime live translation website that captures audio and translates the audio to a selected language "
     );
   };
 
@@ -46,8 +46,8 @@ const Projects = () => {
         
 
          <li>
-          <a href="https://elrapp.netlify.app/" className="update">
-            Elrapp
+          <a href="https://motion-translate.netlify.app/" className="update">
+            Motion-translate
           </a>
           <span onClick={elrappInfo} style={iconStyle}>
             <FontAwesomeIcon icon={faCircleInfo} className="fontawe" />
